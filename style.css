@@ -7,17 +7,23 @@
 
 body {
     background-color: lightblue;
+    width: 90%;
+    margin: 0 auto;
+    color: #2e2058;
 }
 
 /* Header start */
 
 header {
-    margin: 0 6%;
+    /* margin: 0 6%; */
     background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: .5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 /* Header Left Start */
@@ -47,6 +53,7 @@ header {
     list-style: none;
     cursor: pointer;
     color: #2e2058;
+    letter-spacing: .5px;
 }
 
 .header_right_ul li i {
@@ -62,6 +69,7 @@ header {
     border: none;
     font-weight: 600;
     cursor: pointer;
+    letter-spacing: .5px;
 }
 
 .dropbtn i {
@@ -81,7 +89,8 @@ header {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    width: 300px;
+    width: 320px;
+    padding: 1.5rem;
     /* margin-top: 0px; */
 }
 
@@ -120,3 +129,115 @@ header {
 }
 
 /* Header Right End */
+
+/* main section banner start */
+
+.main_bnr {
+    background-color: white;
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+/* Banner Left side */
+
+.main_bnr_left {
+    width: 48%;
+}
+
+.main_bnr_left h1 {
+    font-size: 1.9rem;
+}
+
+.main_bnr_left p {
+    font-size: 1rem;
+    letter-spacing: .5px;
+    line-height: 1.8;
+    margin-top: 1rem;
+}
+
+.main_bnr_left button {
+    padding: .8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #f8ec1f;
+    margin-top: 1.8rem;
+    cursor: pointer;
+}
+
+.partner_section {
+    margin-top: 4rem;
+}
+
+.partner_header {
+    border: 1px solid black;
+    padding: 1.5rem 0;
+    position: relative;
+}
+
+.partner_header ul{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 86%;
+    margin: 0 auto;
+    position: absolute;
+    top: -1.3rem;
+    left: 7%;
+    /* padding: 1rem; */
+}
+
+.partner_header ul li{
+    list-style: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    /* font-weight: 600; */
+}
+
+.partner_header ul li span {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.partner_header ul :nth-child(2) {
+    /* background-color: #2e2057; */
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: .7rem;
+}
+
+.partner_detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.partner_detail_left img {
+    width: 80%;
+}
+
+.partner_detail_right h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: .3px;
+}
+
+.partner_detail_right p {
+    font-size: .8rem;
+    margin-top: .5rem;
+}
+
+/* Banner right side */
+
+.main_bnr_right {
+    width: 48%;
+}
+
+/* main section banner end */
