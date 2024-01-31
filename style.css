@@ -30,9 +30,9 @@ header {
 
 /* Header Right start */
 
-.header_right {
-    /* background-color: red; */
-}
+/* .header_right {
+    background-color: red;
+} */
 
 .header_right_ul {
     display: flex;
@@ -49,6 +49,10 @@ header {
     color: #2e2058;
 }
 
+.header_right_ul li i {
+    margin-right: 3px;
+}
+
 /* Dropdown Button */
 .dropbtn {
     background-color: white;
@@ -60,6 +64,9 @@ header {
     cursor: pointer;
 }
 
+.dropbtn i {
+    font-size: .7rem;
+}
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
@@ -98,9 +105,9 @@ header {
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    /* background-color: lightblue; */
-}
+/* .dropdown:hover .dropbtn {
+    background-color: lightblue;
+} */
 
 .nav_btn {
     padding: 0.5rem 1rem;
@@ -111,4 +118,5 @@ header {
     background-color: #2e2057;
     cursor: pointer;
 }
+
 /* Header Right End */
