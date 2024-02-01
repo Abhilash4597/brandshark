@@ -7,15 +7,12 @@
 
 body {
     background-color: lightblue;
-    width: 90%;
-    margin: 0 auto;
     color: #2e2058;
 }
 
 /* Header start */
 
 header {
-    /* margin: 0 6%; */
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -24,6 +21,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    width: 90%;
+    margin: 0 auto;
 }
 
 /* Header Left Start */
@@ -139,6 +138,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
     margin-top: 5rem;
 }
 
@@ -230,8 +231,9 @@ header {
 }
 
 .partner_detail_right p {
-    font-size: .8rem;
-    margin-top: .5rem;
+    font-size: .7rem;
+    margin-top: .4rem;
+    font-weight: 400;
 }
 
 /* Banner right side */
@@ -246,13 +248,23 @@ header {
 
 .marquee_section {
     background-color: #f7f7f4;
-    /* padding: 5rem 0; */
+    width: 100%;
+    margin: 0 auto;
+    /* padding-bottom: 3rem; */
+    /* padding: 1rem 0; */
+}
+
+.marq_sec_contains {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .marquee_section h3 {
     font-size: 1.4rem;
     letter-spacing: 1px;
-    font-weight: 500;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-top: 6rem;
 }
 
 .slider {
@@ -263,10 +275,18 @@ header {
     width: 100%;
 }
 
-.slide-track img {
-    height: 100px; 
-    width: 200px;
+.slide-track {
+    width: 150px;
+    background-color: #f7f7f4;
+    display: flex;
+    align-items: center;
+    height: 220px;
 }
+
+.slide img {
+    width: 150px;
+}
+
 
 @-webkit-keyframes scroll {
     0% {
@@ -292,7 +312,7 @@ header {
 .slider::before,
 .slider::after {
     content: "";
-    height: 100px;
+    /* height: 100px; */
     position: absolute;
     width: 200px;
     z-index: 2;
@@ -317,9 +337,8 @@ header {
 }
 
 .slider .slide {
-    /* width: 200px; */
     margin: 0 2rem;
-    object-fit: contain;
+    /* object-fit: contain; */
 }
 
 /* Marquee End */
