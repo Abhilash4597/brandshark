@@ -543,3 +543,98 @@ header {
 
 /* Our Team section End */
 
+/* Testimonials section start */
+
+.testimonials {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5.5rem;
+}
+
+.testimonials h1 {
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.testimonial_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.testimonial_details div {
+    height: 150px;
+    width: 31.5%;
+    background-color: #f6f6f6;
+    padding: 1.2rem 1rem;
+    border-radius: 5px;
+}
+
+.testimonial_details p {
+    font-size: .85rem;
+    letter-spacing: .8px;
+    line-height: 1.5rem;
+}
+
+.testimonial_details h4 {
+    margin-top: .9rem;
+}
+
+.test_1 h4 {
+    color: #0c71c3;
+}
+
+.test_2 h4 {
+    color: #3b981a;
+}
+
+.test_3 h4 {
+    color: #b51a17;
+}
+
+.more_testimonials {
+    text-align: center;
+    margin-top: 3rem
+}
+
+.more_testimonials h3 {
+    font-size: larger;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.8rem;
+}
+
+.ratings i {
+    font-size: .8rem;
+    letter-spacing: 0px;
+    color: rgb(227, 174, 16);
+}
+
+.ratings span {
+    font-size: large;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.more_testimonials button {
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #f8ec1f;
+    background-color: #2e2058;
+    border: none;
+    font-weight: 700;
+    padding: .9rem 2.5rem;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 1.8rem;
+    gap: 1.1rem;
+}
+
+/* Testimonials section end */
