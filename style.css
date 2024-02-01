@@ -35,10 +35,6 @@ header {
 
 /* Header Right start */
 
-/* .header_right {
-    background-color: red;
-} */
-
 .header_right_ul {
     display: flex;
     justify-content: space-between;
@@ -74,7 +70,8 @@ header {
 .dropbtn i {
     font-size: .7rem;
 }
-/* The container <div> - needed to position the dropdown content */
+
+/* The container needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -90,7 +87,6 @@ header {
     z-index: 1;
     width: 320px;
     padding: 1.5rem;
-    /* margin-top: 0px; */
 }
 
 /* Links inside the dropdown */
@@ -133,7 +129,6 @@ header {
 
 .main_bnr {
     background-color: white;
-    /* height: 100vh; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -189,14 +184,12 @@ header {
     position: absolute;
     top: -1.3rem;
     left: 7%;
-    /* padding: 1rem; */
 }
 
 .partner_header ul li{
     list-style: none;
     font-size: 1rem;
     letter-spacing: 1px;
-    /* font-weight: 600; */
 }
 
 .partner_header ul li span {
@@ -205,7 +198,6 @@ header {
 }
 
 .partner_header ul :nth-child(2) {
-    /* background-color: #2e2057; */
     border-left: 1px solid black;
     border-right: 1px solid black;
     padding: .7rem;
@@ -372,7 +364,6 @@ header {
 
 .service_row_banner {
     width: 35%;
-    /* background-color: burlywood; */
     margin: 0 auto;
     height: fit-content;
 }
@@ -384,13 +375,11 @@ header {
 
 .service_row_cards {
     width: 50%;
-    /* background-color: cornsilk; */
 }
 
 /* Service Cards */
 
 .service_card {
-    /* height: fit-content; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -441,7 +430,62 @@ header {
     color: #2e2057;
     margin-top: 1rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* Services section End */
 
+/* About Us Section start */
+
+.about_us {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #2e2057;
+}
+
+.about_us_bnr {
+    width: 42%;
+}
+
+.about_us_bnr img {
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.about_us_content {
+    width: 45%;
+}
+
+.about_us_content h4 {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.about_us_content h3 {
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+    margin-top: 1.3rem;
+}
+
+.about_us_content p {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-top: 1.2rem;
+}
+
+.about_us_content button {
+    margin-top: 2rem;
+    padding: 13px 20px;
+    letter-spacing: .8px;
+    font-size: .9rem;
+    font-weight: 600;
+    background-color: #f8ec1f;
+    border: none;
+    cursor: pointer;
+    color: #2e2057;
+}
+
+/* About Us Section End */
