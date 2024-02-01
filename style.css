@@ -250,8 +250,7 @@ header {
     background-color: #f7f7f4;
     width: 100%;
     margin: 0 auto;
-    /* padding-bottom: 3rem; */
-    /* padding: 1rem 0; */
+    padding-bottom: 1.5rem;
 }
 
 .marq_sec_contains {
@@ -280,7 +279,8 @@ header {
     background-color: #f7f7f4;
     display: flex;
     align-items: center;
-    height: 220px;
+    height: 180px;
+    cursor: grab;
 }
 
 .slide img {
@@ -312,7 +312,7 @@ header {
 .slider::before,
 .slider::after {
     content: "";
-    /* height: 100px; */
+    height: 100px;
     position: absolute;
     width: 200px;
     z-index: 2;
@@ -338,7 +338,107 @@ header {
 
 .slider .slide {
     margin: 0 2rem;
-    /* object-fit: contain; */
 }
 
 /* Marquee End */
+
+/* Services section Start */
+
+.services {
+    width: 90%;
+    margin: 5rem auto;
+}
+
+.service_heading {
+    text-align: center;
+}
+
+.service_heading h3 {
+    letter-spacing: 3px;
+    font-size: larger;
+}
+
+.service_heading h2 {
+    font-size: 1.8rem;
+    margin-top: 1.8rem;
+}
+
+.service_first_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service_left_first {
+    width: 50%;
+    height: 100px;
+    background-color: burlywood;
+}
+
+.service_right_first {
+    width: 50%;
+    height: 100vh;
+    background-color: cornsilk;
+}
+
+/* Service Cards */
+
+.service_card {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.service_card_first {
+    width: 45%;
+    height: fit-content;
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.23);
+    /* background-color: #f5f5f5; */
+}
+
+.card_img {
+    height: 85px;
+    width: 85px;
+    border-radius: 50px;
+    background-color: #eeedf2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.card_img :hover {
+    background-color: #eeedf2;
+}
+
+.card_img img {
+    width: 45px;
+}
+
+.card_contain {
+    margin: 2rem 2rem 1.5rem 1.5rem;
+    color: #2e2057;
+}
+
+.card_contain p {
+    font-size: .9rem;
+    margin-top: 1rem;
+    line-height: 1.4rem;
+}
+
+.card_contain button {
+    border: none;
+    background-color: #f5f5f5;
+    color: #2e2057;
+    margin-top: 1rem;
+}
+
+
+.service_card_second {
+    width: 45%;
+    height: 500px;
+    background-color: cornflowerblue;
+}
+/* Services section End */
+
