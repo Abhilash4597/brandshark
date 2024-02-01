@@ -742,3 +742,37 @@ header {
 }
 
 /* Blogs section End */
+
+/* Contact Us section Start */
+
+.contact_us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 87vh;
+    background-color: #faf371;
+    margin-top: 3rem;
+}
+
+.contact_bnr_img {
+    width: 34%;
+    height: 460px;
+    background-color: white;
+}
+
+.contact_bnr_img img {
+    width: 100%;
+}
+
+.contact_form {
+    width: 60.5%;
+    height: 300px;
+    background-color: beige;
+}
+
+
+
+
+
+
+/* Contact Us section End */
