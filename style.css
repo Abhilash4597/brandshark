@@ -363,38 +363,45 @@ header {
     margin-top: 1.8rem;
 }
 
-.service_first_row {
+.service_row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 3.5rem;
 }
 
-.service_left_first {
-    width: 50%;
-    height: 100px;
-    background-color: burlywood;
+.service_row_banner {
+    width: 35%;
+    /* background-color: burlywood; */
+    margin: 0 auto;
+    height: fit-content;
 }
 
-.service_right_first {
+.service_row_banner img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.service_row_cards {
     width: 50%;
-    height: 100vh;
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
 }
 
 /* Service Cards */
 
 .service_card {
-    height: fit-content;
+    /* height: fit-content; */
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.service_card_first {
+.service_card_box {
     width: 45%;
     height: fit-content;
     box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.23);
-    /* background-color: #f5f5f5; */
+    background-color: #f5f5f5;
+    border-radius: 5px;
 }
 
 .card_img {
@@ -408,10 +415,6 @@ header {
     margin: 1.5rem;
 }
 
-.card_img :hover {
-    background-color: #eeedf2;
-}
-
 .card_img img {
     width: 45px;
 }
@@ -421,10 +424,15 @@ header {
     color: #2e2057;
 }
 
+.card_contain h4 {
+    line-height: 2rem;
+}
+
 .card_contain p {
-    font-size: .9rem;
+    font-size: .85rem;
     margin-top: 1rem;
     line-height: 1.4rem;
+    font-weight: 500;
 }
 
 .card_contain button {
@@ -432,13 +440,8 @@ header {
     background-color: #f5f5f5;
     color: #2e2057;
     margin-top: 1rem;
+    font-weight: 600;
 }
 
-
-.service_card_second {
-    width: 45%;
-    height: 500px;
-    background-color: cornflowerblue;
-}
 /* Services section End */
 
