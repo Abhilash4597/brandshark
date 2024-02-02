@@ -457,11 +457,59 @@
         <div class="contact_bnr_img">
           <img src="./Items/get-in-touchmin.webp" alt="get-in-touchmin" />
         </div>
-        <div class="contact_form"></div>
+        <div class="contact_form">
+          <div class="contact_form_heading">
+            <h1>Get in touch with us</h1>
+            <p>
+              Our digital marketing team is always ready to help. Give us a
+              call, drop us an email, or just fill in the form below to
+              instantly schedule a call with us.
+            </p>
+          </div>
+          <form id="contactForm" onsubmit="return validateForm()">
+            <div class="form_first_row">
+              <div class="name_input">
+                <input type="text" id="name" name="name" placeholder="Name" />
+                <div class="err_msg" id="nameError"></div>
+              </div>
+
+              <div class="email_input">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email" />
+                <div class="err_msg" id="emailError"></div>
+              </div>
+              <div class="tel_input">
+                <input
+                  type="tel"
+                  id="mobile"
+                  name="mobile"
+                  placeholder="Mobile" />
+                <div class="err_msg" id="mobileError"></div>
+              </div>
+            </div>
+
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Message"></textarea>
+
+            <div class="err_msg" id="messageError"></div>
+            <div class="err_msg" id="errorMessage"></div>
+            <div class="submit_btn">
+              <button type="submit">Contact Us</button>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
 
     <footer></footer>
+
+    <script src="script.js"></script>
   </body>
 
   <!-- Live Link  https://brandshark.vercel.app/ -->

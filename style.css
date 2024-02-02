@@ -665,6 +665,7 @@ header {
     padding: .7rem 1.5rem;
     font-weight: 500;
     margin-top: 3rem;
+    cursor: pointer;
 }   
 
 .blog_card {
@@ -755,7 +756,7 @@ header {
 }
 
 .contact_bnr_img {
-    width: 34%;
+    width: 33%;
     height: 460px;
     background-color: white;
 }
@@ -765,11 +766,114 @@ header {
 }
 
 .contact_form {
-    width: 60.5%;
-    height: 300px;
-    background-color: beige;
+    width: 62%;
+    background-color: #faf371;
+
 }
 
+.contact_form_heading {
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+
+.contact_form_heading h1 {
+    letter-spacing: 1.4px;
+    font-size: 1.9rem;
+}
+
+.contact_form_heading p {
+    font-size: .85rem;
+    letter-spacing: .7px;
+    line-height: 1.4rem;
+    margin-top: 1rem;
+    font-weight: 520;
+}
+
+
+/* Form */
+
+form {
+    margin: 20px 0 20px 1rem;
+    width: 90%;
+}
+
+.form_first_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_first_row input {
+    padding: 1rem;
+    border: none;
+    width: 95%;
+    border-radius: 5px;
+    font-size: .9rem;
+}
+
+.form_first_row div {
+    margin-top: .2rem;
+
+}
+
+.err_msg {
+    font-size: .8rem;
+}
+
+.name_input {
+    width: 100%;
+}
+
+.email_input {
+    width: 100%;
+}
+
+.tel_input {
+    width: 100%;
+}
+
+textarea {
+    width: 99%;
+    border: none;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    font-size: .9rem;
+    height: 150px;
+}
+
+input.error,
+textarea.error {
+    border: 1px solid red;
+}
+
+.err_msg {
+    color: red;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.submit_btn {
+    width: 99%;
+    display: flex;
+    justify-content: end;
+}
+
+.submit_btn button {
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: #faf371;
+    color: #2e2057;
+    border: 2px solid #2e2057;
+    padding: .8rem 2rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    align-content: end;
+}
+
+.submit_btn button:hover {
+    background-color: #2e2057;
+    color: #faf371;
+}
 
 
 
