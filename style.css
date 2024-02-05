@@ -139,6 +139,17 @@ header {
     width: 90%;
     margin: 0 auto;
     margin-top: 5rem;
+    position: relative;
+}
+
+
+/* svg */
+
+.page_svg {
+    width: 2.5rem;
+    position: absolute;
+    top: 12.5rem;
+    left: -4rem;
 }
 
 /* Banner Left side */
@@ -246,6 +257,13 @@ header {
     width: 100%;
     margin: 0 auto;
     padding-bottom: 1.5rem;
+    position: relative;
+}
+
+.mobile_svg {
+    position: absolute;
+    top: -1rem;
+    width: 3.7rem;
 }
 
 .marq_sec_contains {
@@ -465,6 +483,14 @@ header {
     align-items: center;
     justify-content: space-around;
     color: #2e2057;
+    position: relative;
+}
+
+.brush_svg {
+    position: absolute;
+    right: -4rem;
+    top: -3rem;
+    width: 4rem;
 }
 
 .about_us_bnr {
@@ -518,6 +544,14 @@ header {
     margin: 0 auto;
     margin-top: 5rem;
     color: #2e2057;
+    position: relative;
+}
+
+.msg_svg {
+    position: absolute;
+    width: 3.3rem;
+    left: -4rem;
+    top: -1.2rem;
 }
 
 .our_team h2 {
@@ -1081,6 +1115,6 @@ footer {
     letter-spacing: 1px;
 }
 
-
-
 /* Footer End */
+
+/* side svgs image */
