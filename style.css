@@ -547,7 +547,7 @@ header {
     position: relative;
 }
 
-.msg_svg {
+.bag_svg {
     position: absolute;
     width: 3.3rem;
     left: -4rem;
@@ -604,6 +604,14 @@ header {
     width: 90%;
     margin: 0 auto;
     margin-top: 5.5rem;
+    position: relative;
+}
+
+.msg_svg {
+    width: 3rem;
+    position: absolute;
+    right: -4rem;
+    top: -5rem;
 }
 
 .testimonials h1 {
@@ -699,6 +707,13 @@ header {
     width: 90%;
     margin: 0 auto;
     margin-top: 8rem;
+}
+
+.speaker_svg {
+    width: 3rem;
+    position: absolute;
+    left: -.1rem;
+    /* top: -5rem; */
 }
 
 .blog > h3 {
