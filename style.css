@@ -707,18 +707,19 @@ header {
     width: 90%;
     margin: 0 auto;
     margin-top: 8rem;
+    position: relative;
 }
 
 .speaker_svg {
-    width: 3rem;
     position: absolute;
-    left: -.1rem;
-    /* top: -5rem; */
+    width: 3rem;
+    left: -4rem;
+    top: -5rem;
 }
 
 .blog > h3 {
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: 1.3rem;
 }
 
@@ -830,6 +831,7 @@ header {
     height: 87vh;
     background-color: #faf371;
     margin-top: 3rem;
+    position: relative;
 }
 
 .contact_bnr_img {
@@ -845,7 +847,13 @@ header {
 .contact_form {
     width: 62%;
     background-color: #faf371;
+}
 
+.pencil_svg {
+    position: absolute;
+    width: 3rem;
+    right: 0;
+    top: -2rem;
 }
 
 .contact_form_heading {
@@ -983,6 +991,14 @@ textarea.error {
 
 footer {
     background-color: #2e2058;
+    position: relative;
+}
+
+.background_shade_svg {
+    width: 14rem;
+    position: absolute;
+    right: 0;
+    top: 20rem;
 }
 
 /* Footer First row */
@@ -1011,7 +1027,7 @@ footer {
 .footer_logo p {
     margin-top: 1rem;
     color: white;
-    font-size: .9rem;
+    font-size: .85rem;
     letter-spacing: .7px;
     line-height: 1.5rem;
 }
@@ -1075,9 +1091,10 @@ footer {
 
 .footer_contact ul li {
     list-style: none;
-    font-size: 1rem;
+    font-size: .95rem;
     color: white;
     margin-top: 2rem;
+    line-height: 1.8rem;
 }
 
 .footer_contact ul li p i {
@@ -1111,7 +1128,7 @@ footer {
 
 .footer_second_row_col ul li {
     list-style: none;
-    font-size: 1rem;
+    font-size: .95rem;
     color: white;
     letter-spacing: 1px;
     margin-top: 2rem;
